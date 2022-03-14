@@ -1,15 +1,15 @@
-# @hyperswarm/tunnel
+# @web4/tunnel
 
-Tunneling service for Hyperswarm
+Tunneling service for Bitswarm
 
 ```
-npm install @hyperswarm/tunnel
+npm install @web4/tunnel
 ```
 
 ## Usage
 
 ``` js
-const { Remote, Local } = require('@hyperswarm/tunnel')
+const { Remote, Local } = require('@web4/tunnel')
 ```
 
 On a remote server run the tunneler
@@ -43,8 +43,8 @@ const s = l.connect(hash(Buffer.from('a topic to connect on')))
 If you just want to spin up a tunneling server you can run the following cli
 
 ``` sh
-npm install -g @hyperswarm/tunnel
-hyperswarm-tunnel-server --port 10000
+npm install -g @web4/tunnel
+bitweb-tunnel-server --port 10000
 ```
 
 ## License
